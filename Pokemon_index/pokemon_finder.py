@@ -6,6 +6,7 @@ while True:
         letter = str.upper(input("inicial o nombre del pokemon: "))
         print(type(letter))
         if len(letter) > 0:
+            print("correcto")
             break
         else:
             print("Debe ingresar algun dato")
