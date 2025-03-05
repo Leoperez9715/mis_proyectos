@@ -65,5 +65,6 @@ if __name__ == "__main__":
     main()
 
 #Medicion del tiempo para ver cuanto se demora el script hasta el momento. 
-final = time.time() - inicio
-print(final)
+final_primera_parte = time.time() - inicio
+print(final_primera_parte)
+
