@@ -6,16 +6,16 @@ Este repositorio contiene scripts para analizar archivos en un directorio, extra
 ### 1. large_files.py
 Este script escanea un directorio especificado y genera una lista de archivos con sus respectivas rutas y tamaños en kilobytes.
 
-- Utiliza ´os.walk()´ para recorrer los archivos.
+- Utiliza os.walk() para recorrer los archivos.
 - Almacena los resultados en una lista de tuplas.
 - Genera un archivo large_files.py que contiene estos datos estructurados.
 
 ### Ejecutar el script
 Para usar el script con una ruta personalizada, se debe ejecutar el siguiente comando en la terminal:
     $ python File_report_size.py "ruta" (ejemplo: "C:\Users\LENOVO\Documents")
-    #*_Nota_*: La ruta debe estar entre comillas para ingresarlo como string
+    *_Nota_*: La ruta debe estar entre comillas para ingresarlo como string
 Si no se proporciona una ruta, el script usara la ruta por defecto C:\Users\LENOVO\OneDrive:
-    #*_Nota_*: La ruta default se puede cambiar en ´add.arguments(default="nueva_ruta")´
+    *_Nota_*: La ruta default se puede cambiar en ´add.arguments(default="nueva_ruta")´
     $ python File_report_size.py
 
 ### 2. report_SQL.py
