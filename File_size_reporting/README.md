@@ -12,11 +12,11 @@ Este script escanea un directorio especificado y genera una lista de archivos co
 
 ### Ejecutar el script
 Para usar el script con una ruta personalizada, se debe ejecutar el siguiente comando en la terminal:
-$ python File_report_size.py "ruta" (ejemplo: "C:\Users\LENOVO\Documents")
-*_Nota_*: La ruta debe estar entre comillas para ingresarlo como string
-Si no se proporciona una ruta, el script usara la ruta por defecto C:\Users\LENOVO\OneDrive:
-*_Nota_*: La ruta default se puede cambiar en ´add.arguments(default="nueva_ruta")´
-$ python File_report_size.py
+\n$ python File_report_size.py "ruta" (ejemplo: "C:\Users\LENOVO\Documents")
+\n*_Nota_*: La ruta debe estar entre comillas para ingresarlo como string
+\nSi no se proporciona una ruta, el script usara la ruta por defecto C:\Users\LENOVO\OneDrive:
+\n*_Nota_*: La ruta default se puede cambiar en ´add.arguments(default="nueva_ruta")´
+\n$ python File_report_size.py
 
 ### 2. report_SQL.py
 - Este script carga los datos del archivo large_files.py en una base de datos SQLite en memoria y genera reportes en consola y en un archivo de texto reporte.txt.
@@ -26,7 +26,6 @@ $ python File_report_size.py
     - Número total de archivos.
     - Cantidad de archivos vacíos (0 KB).
     - Cantidad de archivos grandes (> 2 KB).
-
 - Extrae listas de archivos según criterios específicos:
 - Archivos más pesados.
 - Archivos con extensión .py.
@@ -53,14 +52,14 @@ $ python File_report_size.py
 - Mide el tiempo de ejecucion del script.
 
 ## INSTALACION
-Clonar el repositorio
-Comando en terminal para clonar el repositorio desde GitHub y acceder a la carpeta:
-$ git clone https://github.com/Leoperez9715/mis_proyectos.git
-$ git cd File_size_reporting
+### Clonar el repositorio
+\nComando en terminal para clonar el repositorio desde GitHub y acceder a la carpeta:
+\n$ git clone https://github.com/Leoperez9715/mis_proyectos.git
+\n$ git cd File_size_reporting
 
-## INSTALAR PYTHON SI NO LO TIENES
+### Instalar python si no lo tienes
 Este script requiere Python 3.6 o superior. Para verificar la version instalada, ejecuta:
-$ python --version
+\n$ python --version
 
 ## Librerías Utilizadas
 * *os:* Para recorrer directorios y obtener información de archivos.
