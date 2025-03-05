@@ -11,12 +11,12 @@ Este script escanea un directorio especificado y genera una lista de archivos co
 - Genera un archivo large_files.py que contiene estos datos estructurados.
 
 ### Ejecutar el script
-Para usar el script con una ruta personalizada, se debe ejecutar el siguiente comando en la terminal:
-\n$ python File_report_size.py "ruta" (ejemplo: "C:\Users\LENOVO\Documents")
-\n*_Nota_*: La ruta debe estar entre comillas para ingresarlo como string
-\nSi no se proporciona una ruta, el script usara la ruta por defecto C:\Users\LENOVO\OneDrive:
-\n*_Nota_*: La ruta default se puede cambiar en ´add.arguments(default="nueva_ruta")´
-\n$ python File_report_size.py
+Para usar el script con una ruta personalizada, se debe ejecutar el siguiente comando en la terminal:  
+$ python File_report_size.py "ruta" (ejemplo: "C:\Users\LENOVO\Documents")  
+*_Nota_*: La ruta debe estar entre comillas para ingresarlo como string  
+Si no se proporciona una ruta, el script usara la ruta por defecto C:\Users\LENOVO\OneDrive:  
+*_Nota_*: La ruta default se puede cambiar en add.arguments(default="nueva_ruta")  
+$ python File_report_size.py
 
 ### 2. report_SQL.py
 - Este script carga los datos del archivo large_files.py en una base de datos SQLite en memoria y genera reportes en consola y en un archivo de texto reporte.txt.
