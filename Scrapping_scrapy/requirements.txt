@@ -1,0 +1,10 @@
+scrapy
+ipykernel
+pandas
+matplotlib
+matplotlib-inline
+pyOpenSSL
+cryptography
+Twisted
+setuptools
+
